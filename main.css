@@ -1,33 +1,26 @@
+/*#545591, #24404A, #E6D6DC, #FFFF, #81AD9D, #CD5BF2*/
+
 * {
 	margin: 0;
-}
-div {
-	width: 100%;
-	height: 122px;
-}
-p {
-	font-size: 33px;
-	font-family: 'VT323', monospace;
-	color: #FAFAFA;
 
-	padding-top: 51px;
-	padding-left: 20%;
 }
-.color-1 {
-	background-color: #EF7860;
+.header {
+	height: 75px;
+	width: 100%;
+
+	background-color: #FFFF;
 }
-.color-2 {
-	background-color: #F1A1A0;
+
+.background-image {
+	width: 100%;
+	height: 650px;
+
+	background-color: #E6D6DC;
 }
-.color-3 {
-	background-color: #F1CF88;
-}
-.color-4 {
-	background-color: #B5D4A2;
-}
-.color-5 {
-	background-color: #9DC2BC;
-}
-.color-6 {
-	background-color: #AF9CFF;
+
+.title-outside {
+	font-size: 54px;
+	color: #24404A;
+
+	font-family: 'Oleo Script', cursive;
 }
