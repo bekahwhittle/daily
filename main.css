@@ -1,29 +1,3 @@
-/*#545591, #24404A, #E6D6DC, #FFFF, #81AD9D, #CD5BF2*/
-
-* {
-	margin: 0;
-
-	background-color: #fafafa;
-}
-
-.background-image {
-	width: 100%;
-	height: 650px;
-
-	background-image: url("back.png");
-}
-
-.title-outside {
-	font-size: 54px;
-	color: #24404A;
-
-	font-family: 'Oleo Script', cursive;
-}
-
-.art {
-	padding-left: 50px;
-	font-size: 25px;
-	letter-spacing: 2px;
-
-	color: #E6D6DC;
+.party {
+	font-size: 125px;
 }
