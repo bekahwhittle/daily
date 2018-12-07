@@ -1,15 +1,32 @@
-.animation-container{
-	width: 500px;
-	height: 200px;
-
-	display: inline-block;
-
-	margin: auto;
-	padding-top: 25px;
+* {
+	margin: 0;
 }
-.left {
-	padding-left: 450px;
+.site-background {
+	background-color: #FFE0CE;
+
+	width: 100%;
+	height: 750px;
 }
-.hinge {
-	font-size: 205px;
+.image-container {
+	position: relative;
+	z-index: 2;
+	top: 60px;
+	left: 140px;
+
+	width: 600px;
+}
+.image {
+	width: 100%;
+}
+.box-detail {
+	position: relative;
+	left: 180px;
+	top: -350px;
+
+	z-index: 1;
+
+	width: 600px;
+	height: 430px;
+
+	background-color: #21265E;
 }
