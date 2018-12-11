@@ -19,16 +19,6 @@ svg {
 
 	g {
 		animation: slide $transition-duration linear infinite;
-
-		&:nth-child(2) {
-			animation-delay: $transition-duration / 4;
-
-			path {
-				animation-delay: $transition-duration / 4;
-				stroke-dasharray: 0px $path-length + 1;
-				stroke-dashoffset: 1px;
-			}
-		}
 	}
 
 	path{
@@ -38,7 +28,7 @@ svg {
 		fill: none;
 		stroke-dasharray: 0 $path-length;
 		stroke-dashoffset: 0;
-		animation: escalade $transition-duration cubic-bezier(0.8, 0, 0.2, 1) infinite;
+		animation: escalade $transition-duration cubic-bezier(0.8, 0, 0.5, 1) infinite;
 	}
 }
 
@@ -52,13 +42,13 @@ svg {
 }
 
 @keyframes escalade {
-	0% {
-		stroke-dasharray: 0 $path-length;
-		stroke-dashoffset: 0;
-	}
+	// 0% {
+	// 	stroke-dasharray: 0 $path-length;
+	// 	stroke-dashoffset: 0;
+	// }
 	50% {
 		stroke-dasharray: $path-length - 1 $path-length;
-		stroke-dashoffset: 0;
+		stroke-dashoffset: 1;
 	}
 	100% {
 		stroke-dasharray: $path-length - 1 $path-length;
