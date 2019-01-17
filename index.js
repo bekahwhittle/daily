@@ -53,7 +53,7 @@ console.log(romanNum('XXI'));
 // first(arr, 0) => [];
 
 function first (array, n=1) {
-	return array.slice(0, n);
+	return array.slice(0, n);s
  }
 
 let letters = ['a', 'b', 'c', 'd', 'e'];
