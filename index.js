@@ -52,20 +52,9 @@ console.log(romanNum('XXI'));
 // first(arr, 3) => ['a', 'b', 'c'];
 // first(arr, 0) => [];
 
-
-function first (array, n) {
-	if (array == null) {
-		return void 0;
-	}
-	if (n == null) {
-		console.log('my bad')
-	}
-	if (n < 0) {
-		return [];
-	}
-
+function first (array, n=1) {
 	return array.slice(0, n);
-}
+ }
 
 let letters = ['a', 'b', 'c', 'd', 'e'];
 
