@@ -53,13 +53,25 @@ console.log(romanNum('XXI'));
 // first(arr, 0) => [];
 
 
-function first () {
-	let array = ['a', 'b', 'c', 'd', 'e'];
-
-	for (var i = 0; i < array.length; i++) {
-		console.log(array[i]);
+function first (array, n) {
+	if (array == null) {
+		return void 0;
 	}
-	return array;
+	if (n == null) {
+		console.log('my bad')
+	}
+	if (n < 0) {
+		return [];
+	}
+
+	return array.slice(0, n);
 }
 
-console.log (first());
+let letters = ['a', 'b', 'c', 'd', 'e'];
+
+console.log(first(letters, 3));
+console.log(first(letters, 2));
+console.log(first(letters));
+
+
+
