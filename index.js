@@ -44,4 +44,22 @@ function romanNum (str) {
 	return result;
 }
 
-console.log(romanNum('X'));
+console.log(romanNum('XXI'));
+
+// var arr = ['a', 'b', 'c', 'd', 'e'];
+// first(arr) => ['a'];
+// first(arr, 2) => ['a', 'b']
+// first(arr, 3) => ['a', 'b', 'c'];
+// first(arr, 0) => [];
+
+
+function first () {
+	let array = ['a', 'b', 'c', 'd', 'e'];
+
+	for (var i = 0; i < array.length; i++) {
+		console.log(array[i]);
+	}
+	return array;
+}
+
+console.log (first());
