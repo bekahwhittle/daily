@@ -63,4 +63,21 @@ console.log(first(letters, 2));
 console.log(first(letters));
 
 
+// If we have an array [1,2,3,4,6,7,8] then 1 then 2 then 3 then 4 are all consecutive but 
+// 6 is not, so that's the first non consecutive number.
 
+// n + 1 or n - 1 
+
+function nonConsecutive (arrayAlso) {
+	for (let i = 0; i < arrayAlso.length - 1; i++) {
+		
+		if (arrayAlso[i + 1] !== arrayAlso[i] + 1) {
+			return arrayAlso[i + 1];
+		}
+
+	}
+	return null;
+}
+let numbers = [1, 2, 4, 5, 6];
+
+console.log(nonConsecutive(numbers));
